@@ -4,15 +4,10 @@ public class App {
     
     public static void main(String[] args) {
 
-       // Objekt erzeugen
-        Cat cat1 = new Cat(); 
+       // Objekt erzeugen + Werte zuweisen
+        Cat cat1 = new Cat("Grizabella", "white", 29);
         output("Blick von aussen: " + cat1); 
         output("Blick von innen: " + cat1.getInstanceVar());
-
-        // Werte zuweisen
-        cat1.name = "Grizabella";
-        cat1.furColor = "white";
-        cat1.age = 29;
 
         // Werte ausgeben
         output(cat1.name);
@@ -22,24 +17,14 @@ public class App {
 
         output("--------------------");
         
-        Cat cat2 = new Cat();
+        Cat cat2 = new Cat("Alonzo", "grey", 35);
         output("Blick von aussen: " + cat2);
         output("Blick von innen: " + cat2.getInstanceVar());
-
-
-        // Werte zuweisen
-        cat2.name = "Alonzo";
-        cat2.furColor = "grey";
-        cat2.age = 35;
 
         // Werte ausgeben
         output(cat2.name);
         output(cat2.furColor);
         output(Integer.toString(cat2.age)); // Typkonvertierung
-
-
-
-
 
     } 
 
