@@ -14,8 +14,17 @@ public class Cat {
     }
 
 
+    /**
+     * Getter
+     * 
+     */
+
     public String getName() {
-        return name;
+        if (checkPermission()) {
+            return name;
+        } else {
+            return "Sorry, no permission!";
+        }
     }
 
     public String getFurColor() {
@@ -26,7 +35,14 @@ public class Cat {
         return age;
     }
 
+    /*
+     * Setter
+     * 
+     */
 
+     public void setFurColor(String furColor) {
+        this.furColor = furColor;
+    }
 
 
     // Adresse der Objektinstanz vom Typ Cat
@@ -35,5 +51,8 @@ public class Cat {
     }
 
 
+    private boolean checkPermission(){
+        return false;
+    }
     
 }
