@@ -31,7 +31,7 @@ public class App {
     } 
 
     // Statische Methode, die in der Klasse ausgeführt wird ...
-    public static void output(String outputStr){
+    private static void output(String outputStr){
         System.out.println(outputStr);
     }
 
