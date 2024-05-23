@@ -2,9 +2,9 @@ package com.cc.java;
 
 public class Cat {
 
-    public String name;
-    public String furColor;
-    public int age;
+    private String name;
+    private String furColor;
+    private int age;
 
     // Konstuktor
     public Cat(String name, String furColor, int age) {
@@ -12,6 +12,22 @@ public class Cat {
         this.furColor = furColor;
         this.age = age;
     }
+
+
+    public String getName() {
+        return name;
+    }
+
+    public String getFurColor() {
+        return furColor;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+
+
 
     // Adresse der Objektinstanz vom Typ Cat
     public Cat getInstanceVar(){
