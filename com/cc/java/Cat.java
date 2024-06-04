@@ -7,6 +7,7 @@ public class Cat {
     private int age;
 
     // Konstuktor
+
     public Cat(String name, String furColor, int age) {
         this.name = name;
         this.furColor = furColor;
@@ -26,6 +27,8 @@ public class Cat {
             return "Sorry, no permission!";
         }
     }
+
+
 
     public String getFurColor() {
         return furColor;
