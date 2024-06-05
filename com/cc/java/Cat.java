@@ -6,12 +6,13 @@
 //     private String furColor;
 //     private int age;
 
-//     // Konstuktor
-//     public Cat(String name, String furColor, int age) {
-//         this.name = name;
-//         this.furColor = furColor;
-//         this.age = age;
-//     }
+    // Konstuktor
+
+    // public Cat(String name, String furColor, int age) {
+    //     this.name = name;
+    //     this.furColor = furColor;
+    //     this.age = age;
+    // }
 
 
 //     /**
@@ -27,9 +28,11 @@
 //         }
 //     }
 
-//     public String getFurColor() {
-//         return furColor;
-//     }
+
+
+    // public String getFurColor() {
+    //     return furColor;
+    // }
 
 //     public int getAge() {
 //         return age;
