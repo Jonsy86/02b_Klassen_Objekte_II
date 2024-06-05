@@ -1,58 +1,58 @@
-package com.cc.java;
+// package com.cc.java;
 
-public class Cat {
+// public class Cat {
 
-    private String name;
-    private String furColor;
-    private int age;
+//     private String name;
+//     private String furColor;
+//     private int age;
 
-    // Konstuktor
-    public Cat(String name, String furColor, int age) {
-        this.name = name;
-        this.furColor = furColor;
-        this.age = age;
-    }
-
-
-    /**
-     * Getter
-     * 
-     */
-
-    public String getName() {
-        if (checkPermission()) {
-            return name;
-        } else {
-            return "Sorry, no permission!";
-        }
-    }
-
-    public String getFurColor() {
-        return furColor;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    /*
-     * Setter
-     * 
-     */
-
-     public void setFurColor(String furColor) {
-        this.furColor = furColor;
-    }
+//     // Konstuktor
+//     public Cat(String name, String furColor, int age) {
+//         this.name = name;
+//         this.furColor = furColor;
+//         this.age = age;
+//     }
 
 
-    // Adresse der Objektinstanz vom Typ Cat
-    public Cat getInstanceVar(){
-        return this;
-    }
+//     /**
+//      * Getter
+//      * 
+//      */
+
+//     public String getName() {
+//         if (checkPermission()) {
+//             return name;
+//         } else {
+//             return "Sorry, no permission!";
+//         }
+//     }
+
+//     public String getFurColor() {
+//         return furColor;
+//     }
+
+//     public int getAge() {
+//         return age;
+//     }
+
+//     /*
+//      * Setter
+//      * 
+//      */
+
+//      public void setFurColor(String furColor) {
+//         this.furColor = furColor;
+//     }
 
 
-    private boolean checkPermission(){
-        return false;
-    }
+//     // Adresse der Objektinstanz vom Typ Cat
+//     public Cat getInstanceVar(){
+//         return this;
+//     }
+
+
+//     private boolean checkPermission(){
+//         return false;
+//     }
     
-}
+// }
